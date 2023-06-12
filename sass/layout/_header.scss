@@ -52,7 +52,7 @@
         }
 
         @include u.breakpoint-down(small) {
-            border-bottom: var(--border);
+            border-right: var(--border);
             border-left: var(--border);
             border-top: var(--border);
         }

@@ -372,7 +372,7 @@ td {
   font-weight: var(--fw-light);
 }
 .navbar-bottom {
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr;
 }
 @media (min-width: 43.74em) {
   .navbar-bottom {
@@ -393,7 +393,7 @@ td {
 }
 @media (max-width: 43.74875em) {
   .navbar-email {
-    border-bottom: var(--border);
+    border-right: var(--border);
     border-left: var(--border);
     border-top: var(--border);
   }
