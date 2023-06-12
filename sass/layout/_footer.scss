@@ -1,0 +1,71 @@
+@use "../utils/" as u;
+
+.footer {
+    &-company {
+        max-width: 20em;
+        position: relative;
+        line-height: 1.1;
+        @include u.breakpoint(large) {
+            top: -18px;
+        }
+        // height: 1.8125em;
+        // line-height: 2.8em;
+        &-name {
+            font-size: var(--fs-h1-2);
+        }
+    }
+
+    &-primary {
+        grid-template-columns: 1fr;
+        padding: 1.2em;
+        gap: 2em;
+
+        @include u.breakpoint(large) {
+            grid-template-columns: 3fr 1fr 1fr;
+            padding: 3em;
+        }
+    }
+
+    &-secondary {
+        gap: 1.5em;
+        margin: 0.5em 0 0.5em 0;
+    }
+
+    &-nav-links {
+        gap: 1.2em;
+        display: none;
+
+        @include u.breakpoint(large) {
+            display: flex;
+        }
+    }
+
+    &-company-details {
+        gap: 1.2em;
+    }
+
+    &-social-links {
+        width: 9em;
+    }
+}
+
+.contact-form {
+    gap: 1em;
+    // width: 75%;
+    & > *:not(button) {
+        padding: 1em;
+        border: solid 2px var(--clr-neutral-100);
+        background: transparent;
+        color: var(--clr-secondary-300);
+    }
+
+    & > textarea {
+        resize: none;
+    }
+
+    & > *:not(button):focus,
+    *:not(button):focus {
+        border: solid 2px var(--clr-secondary-300);
+        caret-color: var(--clr-secondary-300);
+    }
+}

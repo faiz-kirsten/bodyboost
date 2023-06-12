@@ -1,0 +1,55 @@
+@use "../utils" as u;
+
+.newsletter-heading {
+    font-size: calc(var(--fs-h2) - 0.5rem);
+    margin-bottom: 0.5em;
+}
+.newsletter-container {
+    & > p {
+        margin-bottom: 0.5em;
+
+        &:last-of-type {
+            margin-bottom: 2em;
+        }
+    }
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    & > *:not(label, input[type="radio"]) {
+        padding: 0.5em;
+        margin-bottom: 0.5em;
+    }
+}
+
+.resource-table {
+    border: var(--border);
+    display: none;
+    @include u.breakpoint(medium) {
+        display: block;
+    }
+    padding: 1em;
+    margin: 1em 0 2em 0;
+    &-header {
+        text-align: left;
+        color: var(--clr-secondary-600);
+        &-row {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+td {
+    padding: 0.5em 0;
+    padding-right: 1em;
+}
+
+.form-container {
+    display: grid;
+    place-items: center;
+    @include u.breakpoint(medium) {
+        display: block;
+    }
+}

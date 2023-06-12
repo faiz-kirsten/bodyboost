@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>body-boost.com</title>
+        <link rel="stylesheet" href="../sass/index.css" />
+        <script src="../js/main.js" defer></script>
+        <script src="../js/comment.js" defer></script>
+        <script src="../js/bookmark.js" defer></script>
+        <script
+            src="https://code.jquery.com/jquery-3.6.4.min.js"
+            integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+            crossorigin="anonymous"></script>
+    </head>
+
+    <body onload="checkBookmarkedOnLoad()">
+        <!-- Mobile menu -->
+        <div class="[ mobile-menu ][ scrollable ]">
+            <img
+                src="../assets/icons/close-outline.svg"
+                alt=""
+                class="mobile-menu-close" />
+            <ul class="[ mobile-menu-links ] [ ]" role="list">
+                <li>
+                    <a href="../index.html" class="[ ][ link nav-link ]"
+                        >Home</a
+                    >
+                </li>
+                <li>
+                    <a href="blog.html" class="link nav-link">Blog</a>
+                </li>
+                <li>
+                    <a href="bookmarks.html" class="link nav-link">Bookmarks</a>
+                </li>
+                <li>
+                    <a href="newsletter.html" class="link nav-link ]"
+                        >Newsletter</a
+                    >
+                </li>
+
+                <li>
+                    <a href="#footer" class="[ contact-link ][ link nav-link ]"
+                        >Contact</a
+                    >
+                </li>
+            </ul>
+        </div>
+        <header class="[ container-secondary-center ][ primary-header ]">
+            <nav class="[ navbar ][ ]">
+                <!-- flexbox -->
+                <div
+                    class="[ flex ][ bg-primary-400 flex-space-between padding-1 ][ navbar-top ]">
+                    <div class="[ flex ][ ][ navbar-top-left ]">
+                        <a href="../index.html" class="company-logo-1">
+                            <img
+                                src="../assets/logo/body-boost-logo.png"
+                                alt="" />
+                        </a>
+
+                        <div class="navbar-company">
+                            <a
+                                href="../index.html"
+                                class="[ text-neutral-100 ][ link ][ ]">
+                                <span class="[ fw-semi-bold ][ company-name ]">
+                                    BODY BOOST
+                                </span>
+                                <span class="[ fw-light ][ company-owner ]"
+                                    >By Faiz Kirsten
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Mobile menu -->
+                    <button>
+                        <img
+                            src="../assets/icons/menu-outline.svg"
+                            alt=""
+                            class="mobile-menu-open" />
+                    </button>
+
+                    <!-- desktop menu-->
+                    <ul class="[ ] [ nav-links navbar-top-right ]" role="list">
+                        <li>
+                            <a href="../index.html" class="[ ][ link nav-link ]"
+                                >Home</a
+                            >
+                        </li>
+
+                        <li class="[ text-neutral-100 ][ dropdown-toggle ]">
+                            Resources
+                            <img
+                                src="../assets/icons/chevron-down-outline.svg"
+                                alt="" />
+
+                            <div class="[ dropdown-menu ]">
+                                <a href="blog.html" class="link nav-link"
+                                    >Blog</a
+                                >
+                                <a href="bookmarks.html" class="link nav-link"
+                                    >Bookmarks</a
+                                >
+                                <a
+                                    href="newsletter.html"
+                                    class="link nav-link ]"
+                                    >Newsletter</a
+                                >
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#footer" class="[ ][ link nav-link ]"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- grid -->
+                <div class="[ grid ][ ][ navbar-bottom ]">
+                    <div class="[ fw-light ][ tagline ]">
+                        Transform your body and mind, subscribe
+                    </div>
+                    <div class="[ flex ][ ][ social-links ]">
+                        <a
+                            href="https://github.com/faiz-kirsten"
+                            target="_blank"
+                            ><img
+                                src="../assets/socialMediaIcons/github.png"
+                                alt="" /></a
+                        ><a href=""
+                            ><img
+                                src="../assets/socialMediaIcons/insta-icon.webp"
+                                alt="" /></a
+                        ><a
+                            href="https://www.linkedin.com/in/faiz-kirsten-8547a625b/"
+                            target="_blank"
+                            ><img
+                                src="../assets/socialMediaIcons/linkedIn-icon.webp"
+                                alt="" /></a
+                        ><a href=""
+                            ><img
+                                src="../assets/socialMediaIcons/twitter-icon.webp"
+                                alt=""
+                        /></a>
+                    </div>
+
+                    <div class="[ ][ navbar-email ]">
+                        <input
+                            type="email"
+                            name=""
+                            id=""
+                            placeholder="Email"
+                            class="[ flex flex-align-center flex-justify-center ][ border-none text-align-center ][ navbar-email-input ]" />
+                    </div>
+
+                    <button
+                        data-type="primary"
+                        class="[ border-none fw-semi-bold ][ subscribe ][ flex flex-justify-center ][ bg-secondary-300 ]">
+                        Subscribe
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <main class="[ ][ container-primary-center ][ main-content-article ]">
+            <article class="article-main flow">
+                <div
+                    class="[ flex flex-align-center ][ flex-space-between fw-light ][ article-metadata ]">
+                    <div
+                        class="[ flex flex-align-center ][ article-metadata-info ]">
+                        <img
+                            src="../assets/user/IMG_4270.jpg"
+                            alt=""
+                            class="user-image" />
+                        <span class="">Admin - Date - Length of read</span>
+                    </div>
+                    <img
+                        src="../assets/icons/bookmark-outline (1).svg"
+                        alt=""
+                        class="bookmark-icon" />
+                </div>
+
+                <h2 class="article-title">
+                    How Beginners Can Get Fit and Pump Some Iron
+                </h2>
+
+                <section class="article-content">
+                    <img
+                        src="../assets/blog/featured-post.jpg"
+                        alt=""
+                        class="article-image" />
+                    <p>
+                        Fitness and weight training are the dynamic duo that
+                        will help you achieve the body of your dreams and
+                        improve your overall health. But let's face it, starting
+                        a fitness journey can be intimidating, especially if
+                        you're new to the game. Don't worry, we've got your
+                        back! This article will show you the ropes and help you
+                        get started on your fitness journey with confidence. So
+                        buckle up, it's time to get fit and pump some iron!
+                    </p>
+                </section>
+
+                <section
+                    class="[ flex ][ flex-space-between flex-align-center ][ article-footer ]">
+                    <div class="[ flex ][ ][ social-links ]">
+                        <a href=""
+                            ><img
+                                src="../assets/socialMediaIcons/github.png"
+                                alt="" /></a
+                        ><a href=""
+                            ><img
+                                src="../assets/socialMediaIcons/insta-icon.webp"
+                                alt="" /></a
+                        ><a href=""
+                            ><img
+                                src="../assets/socialMediaIcons/linkedIn-icon.webp"
+                                alt="" /></a
+                        ><a href=""
+                            ><img
+                                src="../assets/socialMediaIcons/twitter-icon.webp"
+                                alt=""
+                        /></a>
+                    </div>
+                    <div class="flex">
+                        <div><span id="comment-counter">0</span> comments</div>
+                        <div><span id="like-counter">0</span> like(s)</div>
+                        <img
+                            src="../assets/icons/heart-outline (1).svg"
+                            alt=""
+                            class="heart-icon" />
+                    </div>
+                </section>
+            </article>
+            <section class="comment-section flow">
+                <p class="fw-semi-bold">Comments</p>
+                <hr />
+                <form action="" class="comment-form">
+                    <textarea
+                        name=""
+                        id=""
+                        rows="1"
+                        placeholder="Write a comment..."
+                        class="comment-input"></textarea>
+
+                    <!-- Position these buttons absolutely -->
+                    <div>
+                        <button data-type="comment-cancel" id="comment-cancel">
+                            Cancel
+                        </button>
+                        <button
+                            data-type="comment-publish"
+                            class="[ bg-primary-400 ][ ]"
+                            id="comment-publish">
+                            Publish
+                        </button>
+                    </div>
+                </form>
+
+                <div class="[ fw-light ][ comments ]" id="comments"></div>
+            </section>
+        </main>
+        <footer id="footer" class="[ container-secondary-center ]">
+            <div class="[ grid ][ bg-primary-400 ][ footer-primary ]">
+                <div class="[ flex ][ footer-company-details ]">
+                    <a href="../index.html">
+                        <img
+                            src="../assets/logo/body-boost-logo.png"
+                            alt=""
+                            class="company-logo-2" />
+                    </a>
+
+                    <div class="[ footer-company ]">
+                        <a href="../index.html" class="[ link ]">
+                            <span
+                                class="[ fw-semi-bold ][ footer-company-name ]">
+                                BODY BOOST
+                            </span>
+                            <br />
+
+                            <span class="[ fw-light ][ footer-company-owner ]"
+                                >by Faiz Kirsten
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <ul
+                    class="[ flex-col ] [ nav-links footer-nav-links ]"
+                    role="list">
+                    <li>
+                        <a href="../index.html" class="[ ][ link nav-link ]"
+                            >Home</a
+                        >
+                    </li>
+                    <li>
+                        <a href="blog.html" class="link nav-link">Blog</a>
+                    </li>
+                    <li>
+                        <a href="bookmarks.html" class="link nav-link"
+                            >Bookmarks</a
+                        >
+                    </li>
+
+                    <li>
+                        <a href="newsletter.html" class="link nav-link ]"
+                            >Newsletter</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#footer" class="link nav-link">Contact</a>
+                    </li>
+                </ul>
+                <form class="[ flex flex-col ][ contact-form ]">
+                    <input
+                        type="text"
+                        name=""
+                        id=""
+                        placeholder="Full Name"
+                        required />
+                    <input
+                        type="email"
+                        name=""
+                        id=""
+                        placeholder="Email"
+                        required />
+                    <textarea
+                        name=""
+                        id=""
+                        cols="30"
+                        rows="1"
+                        placeholder="Message"></textarea>
+                    <button
+                        type="submit"
+                        data-type="secondary"
+                        class="[ text-secondary-300 ]">
+                        Contact
+                    </button>
+                </form>
+            </div>
+            <div
+                class="[ flex flex-align-center flex-justify-center ][ footer-secondary ]">
+                <p>body@boost.com</p>
+                <div
+                    class="[ flex ][ flex-space-around ][ social-links footer-social-links ]">
+                    <a href="https://github.com/faiz-kirsten" target="_blank"
+                        ><img
+                            src="../assets/socialMediaIcons/github.png"
+                            alt="" /></a
+                    ><a href=""
+                        ><img
+                            src="../assets/socialMediaIcons/insta-icon.webp"
+                            alt="" /></a
+                    ><a
+                        href="https://www.linkedin.com/in/faiz-kirsten-8547a625b/"
+                        target="_blank"
+                        ><img
+                            src="../assets/socialMediaIcons/linkedIn-icon.webp"
+                            alt="" /></a
+                    ><a href=""
+                        ><img
+                            src="../assets/socialMediaIcons/twitter-icon.webp"
+                            alt=""
+                    /></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

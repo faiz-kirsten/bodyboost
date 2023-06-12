@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>body-boost.com</title>
+        <link rel="stylesheet" href="../sass/index.css" />
+        <script src="../js/main.js" defer></script>
+        <script
+            src="https://code.jquery.com/jquery-3.6.4.min.js"
+            integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+            crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- Mobile menu -->
+        <div class="[ mobile-menu ][ scrollable ]">
+            <img
+                src="../assets/icons/close-outline.svg"
+                alt=""
+                class="mobile-menu-close" />
+            <ul class="[ mobile-menu-links ] [ ]" role="list">
+                <li>
+                    <a href="../index.html" class="[ link nav-link ]">Home</a>
+                </li>
+                <li>
+                    <a href="blog.html" class="link nav-link">Blog</a>
+                </li>
+                <li>
+                    <a href="bookmarks.html" class="link nav-link">Bookmarks</a>
+                </li>
+                <li>
+                    <a href="newsletter.html" class="link nav-link ]"
+                        >Newsletter</a
+                    >
+                </li>
+                <li>
+                    <a href="#footer" class="[ contact-link ][ link nav-link ]"
+                        >Contact</a
+                    >
+                </li>
+            </ul>
+        </div>
+
+        <header class="[ container-secondary-center ][ primary-header ]">
+            <nav class="[ navbar ][ ]">
+                <!-- flexbox -->
+                <div
+                    class="[ flex ][ bg-primary-400 flex-space-between padding-1 ][ navbar-top ]">
+                    <div class="[ flex ][ ][ navbar-top-left ]">
+                        <a href="../index.html" class="company-logo-1">
+                            <img
+                                src="../assets/logo/body-boost-logo.png"
+                                alt="" />
+                        </a>
+
+                        <div class="navbar-company">
+                            <a
+                                href="../index.html"
+                                class="[ text-neutral-100 ][ link ][ ]">
+                                <span class="[ fw-semi-bold ][ company-name ]">
+                                    BODY BOOST
+                                </span>
+                                <span class="[ fw-light ][ company-owner ]"
+                                    >By Faiz Kirsten
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Mobile menu -->
+                    <button>
+                        <img
+                            src="../assets/icons/menu-outline.svg"
+                            alt=""
+                            class="mobile-menu-open" />
+                    </button>
+
+                    <!-- desktop menu-->
+                    <ul class="[ ] [ nav-links navbar-top-right ]" role="list">
+                        <li>
+                            <a href="../index.html" class="[ link nav-link ]"
+                                >Home</a
+                            >
+                        </li>
+
+                        <li class="[ text-neutral-100 ][ dropdown-toggle ]">
+                            Resources
+                            <img
+                                src="../assets/icons/chevron-down-outline.svg"
+                                alt="" />
+
+                            <div class="[ dropdown-menu ]">
+                                <a href="blog.html" class="[ link nav-link ]"
+                                    >Blog</a
+                                >
+                                <a
+                                    href="bookmarks.html"
+                                    class="[ link nav-link ]"
+                                    >Bookmarks</a
+                                >
+                                <a
+                                    href="newsletter.html"
+                                    class="[ text-secondary-300 ][ link nav-link ]"
+                                    >Newsletter</a
+                                >
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#footer" class="[ ][ link nav-link ]"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- grid -->
+                <div class="[ grid ][ ][ navbar-bottom ]">
+                    <div class="[ fw-light ][ tagline ]">
+                        Transform your body and mind, subscribe
+                    </div>
+                    <div class="[ flex ][ ][ social-links ]">
+                        <a
+                            href="https://github.com/faiz-kirsten"
+                            target="_blank"
+                            ><img
+                                src="../assets/socialMediaIcons/github.png"
+                                alt="" /></a
+                        ><a href=""
+                            ><img
+                                src="../assets/socialMediaIcons/insta-icon.webp"
+                                alt="" /></a
+                        ><a
+                            href="https://www.linkedin.com/in/faiz-kirsten-8547a625b/"
+                            target="_blank"
+                            ><img
+                                src="../assets/socialMediaIcons/linkedIn-icon.webp"
+                                alt="" /></a
+                        ><a href=""
+                            ><img
+                                src="../assets/socialMediaIcons/twitter-icon.webp"
+                                alt=""
+                        /></a>
+                    </div>
+
+                    <div class="[ ][ navbar-email ]">
+                        <input
+                            type="email"
+                            name=""
+                            id=""
+                            placeholder="Email"
+                            class="[ flex flex-align-center flex-justify-center ][ border-none text-align-center ][ navbar-email-input ]" />
+                    </div>
+
+                    <button
+                        data-type="primary"
+                        class="[ border-none fw-semi-bold ][ subscribe ][ flex flex-justify-center ][ bg-secondary-300 ]">
+                        Subscribe
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <main class="[ container-primary-center ][ newsletter-container ]">
+            <h1 class="newsletter-heading">
+                Stay up-to-date with the latest tips, news, and insights on
+                fitness and wellness
+            </h1>
+            <p>
+                My monthly newsletter is packed with informative articles,
+                workout routines, healthy recipes, and inspiration to help you
+                reach your fitness goals.
+            </p>
+
+            <p>
+                Below is a table of high quality resources you can use to get
+                jacked and stacked.
+            </p>
+            <table class="resource-table">
+                <thead class="resource-table-header">
+                    <tr class="resource-table-header-row">
+                        <th class="resource-table-header-cell">
+                            Resource Name
+                        </th>
+                        <th class="resource-table-header-cell">Link</th>
+                    </tr>
+                </thead>
+                <tbody class="resource-table-body">
+                    <tr class="resource-table-body-row">
+                        <td class="resource-table-body-cell">MyFitnessPal</td>
+
+                        <td class="resource-table-body-cell">
+                            <a
+                                href="https://www.myfitnesspal.com/"
+                                target="_blank"
+                                class="[ card-info-link ]"
+                                >https://www.myfitnesspal.com/</a
+                            >
+                        </td>
+                    </tr>
+                    <tr class="resource-table-body-row">
+                        <td class="resource-table-body-cell">Bald Omni-Man</td>
+
+                        <td class="resource-table-body-cell">
+                            <a
+                                href="https://www.youtube.com/@BaldOmniMan"
+                                target="_blank"
+                                class="[ card-info-link ]"
+                                >https://www.youtube.com/@BaldOmniMan</a
+                            >
+                        </td>
+                    </tr>
+                    <tr class="resource-table-body-row">
+                        <td class="resource-table-body-cell">
+                            Geoffrey Verity Schofield
+                        </td>
+
+                        <td class="resource-table-body-cell">
+                            <a
+                                href="https://www.youtube.com/@GVS"
+                                target="_blank"
+                                class="[ card-info-link ]"
+                                >https://www.youtube.com/@GVS</a
+                            >
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>
+                "I love getting my newsletter every week! It keeps me motivated
+                and on track with my fitness goals." - Sarah Jones
+            </p>
+            <p><em class="fw-semi-bold">100% free and 100% useful.</em></p>
+            <p>Complete the form below and receive a free workout plan.</p>
+            <div class="form-container">
+                <form class="[ ][ newsletter-form ]">
+                    <input
+                        type="text"
+                        name=""
+                        id=""
+                        placeholder="Full Name"
+                        required />
+                    <input
+                        type="email"
+                        name=""
+                        id=""
+                        placeholder="Email"
+                        required />
+                    <div>
+                        <div>
+                            <input
+                                type="radio"
+                                id="goalchoice-1"
+                                name="fitness_goal" />
+                            <label for="goalchoice-1">Lose Weight</label>
+                        </div>
+                        <div>
+                            <input
+                                type="radio"
+                                id="goalchoice-2"
+                                name="fitness_goal" />
+                            <label for="goalchoice-2">Gain Weight</label>
+                        </div>
+                    </div>
+                    <button
+                        type="submit"
+                        data-type="newsletter"
+                        class="[ bg-primary-400 text-neutral-100 ]">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+        </main>
+        <footer id="footer" class="[ container-secondary-center ]">
+            <div class="[ grid ][ bg-primary-400 ][ footer-primary ]">
+                <div class="[ flex ][ footer-company-details ]">
+                    <a href="../index.html">
+                        <img
+                            src="../assets/logo/body-boost-logo.png"
+                            alt=""
+                            class="company-logo-2" />
+                    </a>
+
+                    <div class="[ footer-company ]">
+                        <a href="../index.html" class="[ link ]">
+                            <span
+                                class="[ fw-semi-bold ][ footer-company-name ]">
+                                BODY BOOST
+                            </span>
+                            <br />
+
+                            <span class="[ fw-light ][ footer-company-owner ]"
+                                >by Faiz Kirsten
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <ul
+                    class="[ flex-col ] [ nav-links footer-nav-links ]"
+                    role="list">
+                    <li>
+                        <a href="../index.html" class="[ link nav-link ]"
+                            >Home</a
+                        >
+                    </li>
+                    <li>
+                        <a href="blog.html" class="[ link nav-link ]">Blog</a>
+                    </li>
+                    <li>
+                        <a href="bookmarks.html" class="[ link nav-link ]"
+                            >Bookmarks</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="newsletter.html"
+                            class="[ text-secondary-300 ][ link nav-link ]"
+                            >Newsletter</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#footer" class="link nav-link">Contact</a>
+                    </li>
+                </ul>
+                <form class="[ flex flex-col ][ contact-form ]">
+                    <input
+                        type="text"
+                        name=""
+                        id=""
+                        placeholder="Full Name"
+                        required />
+                    <input
+                        type="email"
+                        name=""
+                        id=""
+                        placeholder="Email"
+                        required />
+                    <textarea
+                        name=""
+                        id=""
+                        cols="30"
+                        rows="1"
+                        placeholder="Message"></textarea>
+                    <button
+                        type="submit"
+                        data-type="secondary"
+                        class="[ text-secondary-300 ]">
+                        Contact
+                    </button>
+                </form>
+            </div>
+            <div
+                class="[ flex flex-align-center flex-justify-center ][ footer-secondary ]">
+                <p>body@boost.com</p>
+                <div
+                    class="[ flex ][ flex-space-around ][ social-links footer-social-links ]">
+                    <a href="https://github.com/faiz-kirsten" target="_blank"
+                        ><img
+                            src="../assets/socialMediaIcons/github.png"
+                            alt="" /></a
+                    ><a href=""
+                        ><img
+                            src="../assets/socialMediaIcons/insta-icon.webp"
+                            alt="" /></a
+                    ><a
+                        href="https://www.linkedin.com/in/faiz-kirsten-8547a625b/"
+                        target="_blank"
+                        ><img
+                            src="../assets/socialMediaIcons/linkedIn-icon.webp"
+                            alt="" /></a
+                    ><a href=""
+                        ><img
+                            src="../assets/socialMediaIcons/twitter-icon.webp"
+                            alt=""
+                    /></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

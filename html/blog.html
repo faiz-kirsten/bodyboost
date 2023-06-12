@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>body-boost.com</title>
+        <link rel="stylesheet" href="../sass/index.css" />
+        <script src="../js/main.js" defer></script>
+        <script
+            src="https://code.jquery.com/jquery-3.6.4.min.js"
+            integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+            crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- Mobile menu -->
+        <div class="[ mobile-menu ][ scrollable ]">
+            <img
+                src="../assets/icons/close-outline.svg"
+                alt=""
+                class="mobile-menu-close" />
+            <ul class="[ mobile-menu-links ] [ ]" role="list">
+                <li>
+                    <a
+                        href="../index.html"
+                        class="[ text-secondary-300 ][ link nav-link ]"
+                        >Home</a
+                    >
+                </li>
+                <li>
+                    <a href="blog.html" class="link nav-link">Blog</a>
+                </li>
+                <li>
+                    <a href="bookmarks.html" class="link nav-link">Bookmarks</a>
+                </li>
+                <li>
+                    <a href="newsletter.html" class="link nav-link ]"
+                        >Newsletter</a
+                    >
+                </li>
+
+                <li>
+                    <a href="#footer" class="[ contact-link ][ link nav-link ]"
+                        >Contact</a
+                    >
+                </li>
+            </ul>
+        </div>
+
+        <header class="[ container-secondary-center ][ primary-header ]">
+            <nav class="[ navbar ][ ]">
+                <!-- flexbox -->
+                <div
+                    class="[ flex ][ bg-primary-400 flex-space-between padding-1 ][ navbar-top ]">
+                    <div class="[ flex ][ ][ navbar-top-left ]">
+                        <a href="../index.html" class="company-logo-1">
+                            <img
+                                src="../assets/logo/body-boost-logo.png"
+                                alt="" />
+                        </a>
+
+                        <div class="navbar-company">
+                            <a
+                                href="../index.html"
+                                class="[ text-neutral-100 ][ link ][ ]">
+                                <span class="[ fw-semi-bold ][ company-name ]">
+                                    BODY BOOST
+                                </span>
+                                <span class="[ fw-light ][ company-owner ]"
+                                    >By Faiz Kirsten
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Mobile menu -->
+                    <button>
+                        <img
+                            src="../assets/icons/menu-outline.svg"
+                            alt=""
+                            class="mobile-menu-open" />
+                    </button>
+
+                    <!-- desktop menu-->
+                    <ul class="[ ] [ nav-links navbar-top-right ]" role="list">
+                        <li>
+                            <a href="../index.html" class="[ link nav-link ]"
+                                >Home</a
+                            >
+                        </li>
+
+                        <li class="[ text-neutral-100 ][ dropdown-toggle ]">
+                            Resources
+                            <img
+                                src="../assets/icons/chevron-down-outline.svg"
+                                alt="" />
+
+                            <div class="[ dropdown-menu ]">
+                                <a
+                                    href="blog.html"
+                                    class="[ text-secondary-300 ][ link nav-link ]"
+                                    >Blog</a
+                                >
+                                <a href="bookmarks.html" class="link nav-link"
+                                    >Bookmarks</a
+                                >
+                                <a
+                                    href="newsletter.html"
+                                    class="link nav-link ]"
+                                    >Newsletter</a
+                                >
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#footer" class="[ ][ link nav-link ]"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- grid -->
+                <div class="[ grid ][ ][ navbar-bottom ]">
+                    <div class="[ fw-light ][ tagline ]">
+                        Transform your body and mind, subscribe
+                    </div>
+                    <div class="[ flex ][ ][ social-links ]">
+                        <a
+                            href="https://github.com/faiz-kirsten"
+                            target="_blank"
+                            ><img
+                                src="../assets/socialMediaIcons/github.png"
+                                alt="" /></a
+                        ><a href=""
+                            ><img
+                                src="../assets/socialMediaIcons/insta-icon.webp"
+                                alt="" /></a
+                        ><a
+                            href="https://www.linkedin.com/in/faiz-kirsten-8547a625b/"
+                            target="_blank"
+                            ><img
+                                src="../assets/socialMediaIcons/linkedIn-icon.webp"
+                                alt="" /></a
+                        ><a href=""
+                            ><img
+                                src="../assets/socialMediaIcons/twitter-icon.webp"
+                                alt=""
+                        /></a>
+                    </div>
+
+                    <div class="[ ][ navbar-email ]">
+                        <input
+                            type="email"
+                            name=""
+                            id=""
+                            placeholder="Email"
+                            class="[ flex flex-align-center flex-justify-center ][ border-none text-align-center ][ navbar-email-input ]" />
+                    </div>
+
+                    <button
+                        data-type="primary"
+                        class="[ border-none fw-semi-bold ][ subscribe ][ flex flex-justify-center ][ bg-secondary-300 ]">
+                        Subscribe
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <main class="[ container-primary-center ][ main-content-blog ]">
+            <h1 class="primary-heading-1 blog-h1">Body Boost</h1>
+            <article>
+                <h2 class="blog-h2">All Posts</h2>
+                <div class="auto-grid">
+                    <div class="card">
+                        <img
+                            src="../assets/blog/cardio.jpg"
+                            alt=""
+                            class="card-image" />
+
+                        <div class="card-info">
+                            <div>
+                                <span class="card-date">Date - Time</span>
+                            </div>
+
+                            <a href="article1.html" class="card-info-link">
+                                <p class="card-title">
+                                    The Heart of the Matter: Why Cardio is
+                                    Crucial for Your Fitness
+                                </p>
+
+                                <p class="card-description">
+                                    So, you're thinking about starting a new
+                                    fitness routine and you're wondering what
+                                    kind of exercise you should...
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img
+                            src="../assets/blog/beginner-programs.jpg"
+                            alt=""
+                            class="card-image" />
+                        <div class="card-info">
+                            <div>
+                                <span class="card-date">Date - Time</span>
+                            </div>
+                            <a href="article2.html" class="card-info-link">
+                                <p class="card-title">
+                                    Effective beginner programs
+                                </p>
+                                <p class="card-description">
+                                    When it comes to starting a workout routine
+                                    as a beginner, it can be overwhelming...
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="../assets/blog/bulking.jpg"
+                            alt=""
+                            class="card-image" />
+                        <div class="card-info">
+                            <div>
+                                <span class="card-date">Date - Time</span>
+                            </div>
+                            <a href="article3.html" class="card-info-link">
+                                <p class="card-title">
+                                    Effective foods for bulking
+                                </p>
+                                <p class="card-description">
+                                    If you're a beginner looking to bulk up,
+                                    it's important to fuel your body...
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="../assets/blog/lose-weight.jpg"
+                            alt=""
+                            class="card-image" />
+                        <div class="card-info">
+                            <div>
+                                <span class="card-date">Date - Time</span>
+                            </div>
+                            <a href="article4.html" class="card-info-link">
+                                <p class="card-title">
+                                    Effective foods for losing weight
+                                </p>
+                                <p class="card-description">
+                                    When it comes to losing weight, exercise and
+                                    a healthy diet go hand in...
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="../assets/blog/friends-working-out.jpg"
+                            alt=""
+                            class="card-image" />
+                        <div class="card-info flow">
+                            <div>
+                                <span class="[ ][ card-date ]"
+                                    >Date - Time</span
+                                >
+                            </div>
+
+                            <a href="article5.html" class="card-info-link">
+                                <p class="card-title">
+                                    Benefits of having a training partner
+                                </p>
+                                <p class="card-description">
+                                    Are you tired of working out alone, with
+                                    nothing but your thoughts...
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img
+                            src="../assets/blog/maintaining-motivation.jpg"
+                            alt=""
+                            class="card-image" />
+                        <div class="card-info">
+                            <div>
+                                <span class="card-date">Date - Time</span>
+                            </div>
+                            <a href="article6.html" class="card-info-link">
+                                <p class="card-title">
+                                    How to maintain motivation and stay
+                                    committed during your fitness journey
+                                </p>
+                                <p class="card-description">
+                                    Maintaining motivation and commitment to a
+                                    fitness routine can be challenging,
+                                    especially when you're a beginner...
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="../assets/blog/featured-post.jpg"
+                            alt=""
+                            class="card-image" />
+                        <div class="card-info">
+                            <div>
+                                <span class="card-date">Date - Time</span>
+                            </div>
+                            <a href="article7.html" class="card-info-link">
+                                <p class="card-title">
+                                    How Beginners Can Get Fit and Pump Some Iron
+                                </p>
+                                <p class="card-description">
+                                    Fitness and weight training are the dynamic
+                                    duo that will help you achieve the body of
+                                    your dreams and improve your overall...
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="../assets/blog/ab-workout.jpg"
+                            alt=""
+                            class="card-image" />
+                        <div class="card-info">
+                            <div>
+                                <span class="card-date">Date - Time</span>
+                            </div>
+                            <a href="article8.html" class="card-info-link">
+                                <p class="card-title">
+                                    The perfect and effective ab routine
+                                </p>
+                                <p class="card-description">
+                                    A simple but effective ab workout is
+                                    essential for anyone looking to strengthen
+                                    and tone their core...
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+        <footer id="footer" class="[ container-secondary-center ]">
+            <div class="[ grid ][ bg-primary-400 ][ footer-primary ]">
+                <div class="[ flex ][ footer-company-details ]">
+                    <a href="../index.html">
+                        <img
+                            src="../assets/logo/body-boost-logo.png"
+                            alt=""
+                            class="company-logo-2" />
+                    </a>
+
+                    <div class="[ footer-company ]">
+                        <a href="../index.html" class="[ link ]">
+                            <span
+                                class="[ fw-semi-bold ][ footer-company-name ]">
+                                BODY BOOST
+                            </span>
+                            <br />
+
+                            <span class="[ fw-light ][ footer-company-owner ]"
+                                >by Faiz Kirsten
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <ul
+                    class="[ flex-col ] [ nav-links footer-nav-links ]"
+                    role="list">
+                    <li>
+                        <a href="../index.html" class="[ link nav-link ]"
+                            >Home</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="blog.html"
+                            class="[ text-secondary-300 ][ link nav-link ]"
+                            >Blog</a
+                        >
+                    </li>
+                    <li>
+                        <a href="bookmarks.html" class="link nav-link"
+                            >Bookmarks</a
+                        >
+                    </li>
+                    <li>
+                        <a href="newsletter.html" class="link nav-link ]"
+                            >Newsletter</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#footer" class="link nav-link">Contact</a>
+                    </li>
+                </ul>
+                <form class="[ flex flex-col ][ contact-form ]">
+                    <input
+                        type="text"
+                        name=""
+                        id=""
+                        placeholder="Full Name"
+                        required />
+                    <input
+                        type="email"
+                        name=""
+                        id=""
+                        placeholder="Email"
+                        required />
+                    <textarea
+                        name=""
+                        id=""
+                        cols="30"
+                        rows="1"
+                        placeholder="Message"></textarea>
+                    <button
+                        type="submit"
+                        data-type="secondary"
+                        class="[ text-secondary-300 ]">
+                        Contact
+                    </button>
+                </form>
+            </div>
+            <div
+                class="[ flex flex-align-center flex-justify-center ][ footer-secondary ]">
+                <p>body@boost.com</p>
+                <div
+                    class="[ flex ][ flex-space-around ][ social-links footer-social-links ]">
+                    <a href="https://github.com/faiz-kirsten" target="_blank"
+                        ><img
+                            src="../assets/socialMediaIcons/github.png"
+                            alt="" /></a
+                    ><a href=""
+                        ><img
+                            src="../assets/socialMediaIcons/insta-icon.webp"
+                            alt="" /></a
+                    ><a
+                        href="https://www.linkedin.com/in/faiz-kirsten-8547a625b/"
+                        target="_blank"
+                        ><img
+                            src="../assets/socialMediaIcons/linkedIn-icon.webp"
+                            alt="" /></a
+                    ><a href=""
+                        ><img
+                            src="../assets/socialMediaIcons/twitter-icon.webp"
+                            alt=""
+                    /></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

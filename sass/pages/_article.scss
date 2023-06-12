@@ -1,0 +1,89 @@
+@use "../utils/" as u;
+
+.article-main {
+    border: var(--border);
+    padding: 2.5em 1em;
+    margin: 4em 0 2em 0;
+    @include u.breakpoint(medium) {
+        padding: 2.5em 6em;
+    }
+}
+
+.article-metadata {
+    height: 2em;
+
+    &-info {
+        gap: 1em;
+        font-size: 0.8rem;
+    }
+}
+.article-title {
+    margin-bottom: 1em;
+}
+
+.article-footer {
+    border-top: 1px solid var(--clr-primary-300);
+    border-bottom: 1px solid var(--clr-primary-300);
+    margin-top: 2em;
+    padding: 1em 0;
+
+    & :last-child {
+        gap: 1em;
+        color: var(--clr-primary-300);
+    }
+}
+
+.user-image {
+    height: 3em;
+    width: 3em;
+    object-fit: cover;
+    border-radius: 1000px;
+}
+
+.comment-section {
+    border: var(--border);
+    padding: 2.5em 1em 3em 1em;
+    margin-bottom: 4em;
+    @include u.breakpoint(medium) {
+        padding: 2.5em 6em 3em 6em;
+    }
+}
+
+.comment-input {
+    width: 100%;
+    border: var(--clr-primary-300) 1px solid;
+    padding: 1em;
+    resize: none;
+    // margin-bottom: 2em;
+}
+
+.comment-form {
+    position: relative;
+}
+
+.comment-user {
+    margin-bottom: 0.7em;
+    gap: 1em;
+    align-items: center;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+
+.comment-image {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.comments {
+    padding-top: 2.5em;
+
+    & > div {
+        margin-bottom: 1em;
+        & > p {
+            padding-left: 2.5em;
+        }
+    }
+}

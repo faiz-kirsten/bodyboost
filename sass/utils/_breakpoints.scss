@@ -1,0 +1,32 @@
+// 3 different breakpoints for mobile, tablets and desktop
+// Mobile: 700px, Tablets 900px, Desktop/large screens 1440px
+// Widths: <700px as small, 700-900 as medium, 900-1440 as large, >1440 as XL
+// This ensures that you don't need to remember the specific values
+$breakpoints-up: (
+    // "medium": 43.75em,
+    // // Get this by divided desired pixel value by 16
+    // "large": 56.25em,
+    // "xlarge": 90em,
+    "medium": 43.74em,
+    "large": 56.23em,
+    "xlarge": 90em
+);
+
+@mixin breakpoint($size) {
+    @media (min-width: map-get($breakpoints-up, $size)) {
+        @content;
+    }
+}
+
+// Max-width breakpoints: Mobile 699.98px, 899.98px, 1439.98px
+$breakpoints-down: (
+    "small": 43.74875em,
+    "medium": 56.24875em,
+    "large": 89.99875em,
+);
+
+@mixin breakpoint-down($size) {
+    @media (max-width: map-get($breakpoints-down, $size)) {
+        @content;
+    }
+}

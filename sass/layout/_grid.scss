@@ -1,0 +1,19 @@
+// Composition
+
+.auto-grid {
+    // --min-column-size: 23.435em;
+    display: grid;
+
+    gap: var(--gap);
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(min(var(--min-column-size), 100%), 1fr)
+    );
+    align-content: center;
+    // padding: 1.5em;
+
+    &-card {
+        --min-column-size: 23.435em;
+        --gap: 2em;
+    }
+}

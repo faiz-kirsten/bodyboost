@@ -1,0 +1,39 @@
+// Basic styling
+
+body {
+    font-family: var(--ff-primary);
+    color: var(--clr-primary-400);
+    font-size: var(--fs-primary);
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: var(--fs-h1);
+}
+
+h2 {
+    font-size: var(--fs-h2);
+}
+
+.link {
+    cursor: pointer;
+    color: var(--clr-neutral-100);
+    text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus-within {
+    color: var(--clr-secondary-300);
+    transition: ease-in 200ms;
+}
+
+input,
+textarea {
+    background: transparent;
+    outline: none;
+}
