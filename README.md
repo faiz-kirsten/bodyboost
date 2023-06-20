@@ -100,7 +100,7 @@
 1. Bookmark articles to read for later
 
 _For more examples, please refer to the [Documentation](https://example.com)_
-![](demo/bookmark-article_converted.gif)
+![Bookmark Article](demo/bookmark-article_converted.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
