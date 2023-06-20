@@ -97,13 +97,10 @@
 
 ## Usage
 
-1. Bookamrk articles to read for later
-   [![Watch the video](https://img.youtube.com/vi/APOPm01BVrk/hqdefault.jpg)](https://www.youtube.com/embed/APOPm01BVrk)
-
-[<img src="https://img.youtube.com/vi/APOPm01BVrk/hqdefault.jpg" width="600" height="300"
-  />](https://www.youtube.com/embed/APOPm01BVrk)
+1. Bookmark articles to read for later
 
 _For more examples, please refer to the [Documentation](https://example.com)_
+![](demo/bookmark-article_converted.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
