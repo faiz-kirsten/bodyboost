@@ -99,7 +99,7 @@
 
 1. Bookmark articles to read for later
 
-<img src="demo/bookmark-article-nosound.mov" width="50%">
+<img src="demo/bookmark-article-nosound.mp4" width="50%">
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
