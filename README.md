@@ -99,7 +99,6 @@
 
 1. Bookmark articles to read for later
 
-<img src="" width="50%">
 [![Bookmarking article][demo/bookmark-article-nosound.mp4]]
 
 _For more examples, please refer to the [Documentation](https://example.com)_
