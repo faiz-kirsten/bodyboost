@@ -99,7 +99,9 @@
 
 1. Bookmark articles to read for later
 
-[![Bookmarking article][demo/bookmark-article-nosound.mp4]]
+https://github.com/faiz-kirsten/bodyboost/assets/100942153/4f72bb86-2fe0-4888-b3f2-9857448841a3
+
+
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
