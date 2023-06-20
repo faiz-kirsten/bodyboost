@@ -65,7 +65,7 @@
 
 ## About The Project
 
-[![Bodyboost Screen Shot][product-screenshot]](https://github.com/faiz-kirsten/bodyboost)
+[![Bodyboost Screen Shot][product-screenshot]](https://faiz-kirsten.github.io/bodyboost/)
 
 <!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `/faiz-kirsten`, `bodyboost`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description` -->
 
@@ -99,7 +99,8 @@
 
 1. Bookmark articles to read for later
 
-<img src="demo/bookmark-article-nosound.mp4" width="50%">
+<img src="" width="50%">
+[![Bookmarking article][demo/bookmark-article-nosound.mp4]]
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
