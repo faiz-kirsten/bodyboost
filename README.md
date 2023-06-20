@@ -79,6 +79,7 @@
 ### Built With
 
 -   HTML
+-   CSS
 -   SASS
 -   Javascript
 
