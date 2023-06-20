@@ -183,7 +183,7 @@ Project Link: [https://github.com//faiz-kirsten/bodyboost](https://github.com//f
 [license-shield]: https://img.shields.io/github/license//faiz-kirsten/bodyboost.svg?style=for-the-badge
 [license-url]: https://github.com//faiz-kirsten/bodyboost/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/faiz-kirsten-8547a625b
 [product-screenshot]: deployed-website/Screenshot%202023-06-20%20at%2010.41.42.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
