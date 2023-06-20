@@ -99,7 +99,7 @@
 
 1. Bookmark articles to read for later
 
-[![Bookmark Article](demo/bookmark-article_converted.gif)]
+[![Bookmark Article][demo/bookmark-article_converted.gif]]
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
