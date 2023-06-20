@@ -84,9 +84,6 @@
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Installation
 
 1. Clone the repo
@@ -100,7 +97,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+1. Bookamrk articles to read for later
+   [![Watch the video](https://img.youtube.com/vi/APOPm01BVrk/hqdefault.jpg)](https://www.youtube.com/embed/APOPm01BVrk)
+
+[<img src="https://img.youtube.com/vi/APOPm01BVrk/hqdefault.jpg" width="600" height="300"
+  />](https://www.youtube.com/embed/APOPm01BVrk)
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
