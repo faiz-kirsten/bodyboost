@@ -36,7 +36,7 @@
     <br />
     <br />
     <br />
-    <a href="https://faiz-kirsten.github.io/bodyboost/">View Demo</a>
+    <a href="https://faiz-kirsten.github.io/bodyboost/" target="_blank">View Demo</a>
   </p>
 </div>
 
