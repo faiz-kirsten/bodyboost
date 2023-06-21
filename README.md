@@ -90,18 +90,19 @@
     ```sh
     git clone https://github.com//faiz-kirsten/bodyboost.git
     ```
+2. Paste it in your terminal
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 
 ## Usage
 
-1. Bookmark articles to read for later
+-   Bookmark articles to read for later
 
 https://github.com/faiz-kirsten/bodyboost/assets/100942153/4f72bb86-2fe0-4888-b3f2-9857448841a3
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+## Features
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
