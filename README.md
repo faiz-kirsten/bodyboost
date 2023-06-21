@@ -106,6 +106,8 @@ https://github.com/faiz-kirsten/bodyboost/assets/100942153/4f72bb86-2fe0-4888-b3
 
 -   User gets a pop up showing the amount of articles they have bookmarked and whether they would like to visit their bookmarks
 
+<img width="1439" alt="Screenshot 2023-06-21 at 16 02 04" src="https://github.com/faiz-kirsten/bodyboost/assets/100942153/ec2be806-4a6f-425a-ae4a-4d2e87dde9ba" width="50%">
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 Project Link: [https://github.com//faiz-kirsten/bodyboost](https://github.com//faiz-kirsten/bodyboost)
