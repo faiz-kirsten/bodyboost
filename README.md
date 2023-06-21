@@ -104,6 +104,8 @@ https://github.com/faiz-kirsten/bodyboost/assets/100942153/4f72bb86-2fe0-4888-b3
 
 ## Features
 
+-   User gets a pop up showing the amount of articles they have bookmarked and whether they would like to visit their bookmarks
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 Project Link: [https://github.com//faiz-kirsten/bodyboost](https://github.com//faiz-kirsten/bodyboost)
